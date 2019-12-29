@@ -20,6 +20,7 @@ begin
     @show y
     @test d == euclidean(x, y)
     @test d <= n
+
 end
 
 # 3.2
@@ -32,7 +33,7 @@ begin
     rms(x) = sqrt(x'x) / sqrt(length(x))
     rms(a, b) = sqrt(a'a + b'b) / sqrt(length(a) + length(b))
 
-    myavg(x) = sum(x)/length(x)
+    myavg(x) = sum(x) / length(x)
     myavg(a, b) = (sum(a) + sum(b)) / (length(a) + length(b))
 
     x = vcat(a, b)
