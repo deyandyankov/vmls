@@ -1,0 +1,16 @@
+\documentclass{article}
+\begin{document}
+
+\section{My Section}
+This is a test $x^4$.
+
+\section{My second section}
+Text here
+\begin{equation}
+  y = a + b
+\end{equation}
+
+\section{My third section}
+And text here
+
+\end{document}
