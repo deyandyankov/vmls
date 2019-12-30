@@ -12,6 +12,8 @@ end
 
 # 3.1
 begin
+    using Distances
+    using Test
     n = 100
     x = rand([0, 1], n)
     y = rand([0, 1], n)

@@ -1,0 +1,4 @@
+name = "vmls"
+uuid = "80595459-14d6-41d8-8010-481c61694602"
+authors = ["deyandyankov <deyan@dyankov.name>"]
+version = "0.1.0"
